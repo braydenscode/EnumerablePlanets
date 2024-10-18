@@ -11,6 +11,7 @@ public class PlanetController {
     @GetMapping
     public String displayIndex(Model model) {
         model.addAttribute("planets", Planets.values());
+        model.addAttribute("test", "Simple Test Message");
         return "index";
     }
 }

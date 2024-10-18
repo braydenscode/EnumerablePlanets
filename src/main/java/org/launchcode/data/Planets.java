@@ -29,4 +29,8 @@ public enum Planets {
     public int getYearLength() {
         return yearLength;
     }
+
+    public int getDistanceFromSun() {
+        return distanceFromSun;
+    }
 }
