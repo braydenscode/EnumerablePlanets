@@ -1,4 +1,4 @@
-package org.launchcode.data;
+package org.launchcode.enumerableplanets.data;
 
 public enum Planets {
     MERCURY("Mercury", 88, 57),
